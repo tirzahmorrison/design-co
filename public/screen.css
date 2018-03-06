@@ -8,11 +8,13 @@ body {
   font: 16px / 1 sans-serif;
 }
 
-header{
-  display: flex;
+.header {
+  
 }
 
-.header{
+
+.header ul {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
