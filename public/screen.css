@@ -50,6 +50,7 @@ header .search{
   display: flex;
   flex-direction: row;
   width: 960px;
+  margin: auto;
 }
 
 
@@ -73,10 +74,12 @@ header .search{
 
 .ob.wide{
   flex-grow: 3;
+  padding: 2px;
 }
 
 
 .ob.small{
   flex-grow: 2;
+  padding: 2px;
 }
 
