@@ -26,7 +26,7 @@ header div {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 60%;
+  width: 960px;
 }
 
 header li{
@@ -49,19 +49,27 @@ header .search{
 .ob {
   display: flex;
   flex-direction: column;
-  
+  width: 960px;
 }
 
 
 .ob.first{
-  align-content: center;
+  align-items: center;
 
 }
 
 .ob div {
   margin:auto;
-  width: 75%;
+  
 }
 
 
+.ob.wide{
+  flex-grow: 3;
+}
+
+
+.ob.small{
+  flex-grow: 2;
+}
 
