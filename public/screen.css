@@ -12,13 +12,15 @@ body {
 }
 
 header {
-  display: flex;
+  background-color: light grey;
   position: fixed;
   top: 0;
-  flex-direction: row;
+  
 }
 
 header div {
+  display: flex;
+  flex-direction: row;
   margin: auto;
   width: 75%;
 }
