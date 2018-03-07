@@ -7,15 +7,35 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
   display: flex;
+  flex-direction: column;
 
 }
 
 header {
   display: flex;
+  position: fixed;
+  top: 0;
+  flex-direction: row;
 }
+
+header div {
+  margin: auto;
+  width: 75%;
+}
+header li a:hover, li.active a {
+  color: red;
+}
+
+
 
 .ob {
   display: flex;
+  flex-direction: column;
+}
+
+.ob div {
+  margin:auto;
+  width: 75%;
 }
 
 
