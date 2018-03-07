@@ -49,10 +49,13 @@ header .search{
 .ob {
   display: flex;
   flex-direction: column;
+  
 }
 
-.ob h1, .ob p {
-  justify-content: center;
+
+.ob.first{
+  align-content: center;
+
 }
 
 .ob div {
