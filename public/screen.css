@@ -18,14 +18,28 @@ header {
   
 }
 
+header a {
+  text-decoration: none;
+  
+}
+
 header div {
   display: flex;
   flex-direction: row;
   margin: auto;
   width: 75%;
 }
+
+header li{
+  display: inline;
+  padding: 1em;
+}
 header li a:hover, li.active a {
   color: red;
+}
+
+header ul{
+  list-style: none;
 }
 
 
