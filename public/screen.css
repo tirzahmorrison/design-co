@@ -51,6 +51,10 @@ header .search{
   flex-direction: column;
 }
 
+.ob first {
+  justify-content: center;
+}
+
 .ob div {
   margin:auto;
   width: 75%;
