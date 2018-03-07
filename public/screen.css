@@ -51,7 +51,7 @@ header .search{
   flex-direction: column;
 }
 
-.ob first {
+.ob h1, .ob p {
   justify-content: center;
 }
 
