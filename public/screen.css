@@ -56,6 +56,11 @@ header .search{
 .ob.first{
   align-items: center;
   flex-direction: column;
+  
+}
+
+.ob.first h1, .ob.first p{
+  padding: 1em;
 }
 
 .ob div {
