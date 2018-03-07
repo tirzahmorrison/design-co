@@ -83,3 +83,6 @@ header .search{
   padding: 2px;
 }
 
+.ob .ib {
+  flex-grow: 1;
+}
