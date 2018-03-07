@@ -72,7 +72,7 @@ header .search{
 }
 
 
-.ob.wide{
+.ob .wide{
   flex-grow: 3;
   padding: 2px;
   border: 1px;
@@ -80,7 +80,7 @@ header .search{
 }
 
 
-.ob.small{
+.ob .small{
   flex-grow: 2;
   padding: 2px;
   border: 1px;
