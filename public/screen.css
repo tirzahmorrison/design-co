@@ -75,12 +75,16 @@ header .search{
 .ob.wide{
   flex-grow: 3;
   padding: 2px;
+  border: 1px;
+  border-color: white;
 }
 
 
 .ob.small{
   flex-grow: 2;
   padding: 2px;
+  border: 1px;
+  border-color: white;
 }
 
 .ob .ib {
