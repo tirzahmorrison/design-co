@@ -27,7 +27,7 @@ header div {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 75%;
+  width: 60%;
 }
 
 header li{
@@ -42,6 +42,9 @@ header ul{
   display: flex;
 }
 
+header .search{
+  align-self: end;
+}
 
 
 .ob {
