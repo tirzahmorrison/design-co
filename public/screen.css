@@ -13,13 +13,10 @@ body {
 
 header {
   background-color: #ccc;
- 
-  
 }
 
 header a {
   text-decoration: none;
-  
 }
 
 header div {
@@ -45,14 +42,12 @@ header .search{
   align-self: end;
 }
 
-
 .ob {
   display: flex;
   flex-direction: row;
   width: 960px;
   margin: auto;
 }
-
 
 .ob.first{
   align-items: center;
@@ -71,14 +66,12 @@ header .search{
   
 }
 
-
 .ob .wide{
   flex-grow: 3;
   padding: 2px;
   border: 1px;
   border-color: white;
 }
-
 
 .ob .small{
   flex-grow: 2;
