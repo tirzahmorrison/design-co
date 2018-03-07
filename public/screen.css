@@ -31,7 +31,6 @@ header div {
 }
 
 header li{
-  display: inline;
   padding: 1em;
 }
 header li a:hover, li.active a {
@@ -40,6 +39,7 @@ header li a:hover, li.active a {
 
 header ul{
   list-style: none;
+  display: flex;
 }
 
 
